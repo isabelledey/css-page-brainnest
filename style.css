@@ -1,0 +1,23 @@
+.answers-sec {
+  width: 400px;
+}
+
+.four-headings {
+  background-color: rgb(244, 216, 182);
+}
+
+.four-headings h1 {
+  color: rgb(112, 192, 152);
+}
+
+.four-headings h2 {
+  color: rgb(150, 123, 206);
+}
+
+.four-headings h3 {
+  color: rgb(105, 121, 241);
+}
+
+.four-headings h4 {
+  color: hsl(5, 40%, 60%);
+}
