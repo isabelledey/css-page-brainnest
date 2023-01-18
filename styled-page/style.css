@@ -48,8 +48,9 @@ nav .active {
   margin-top: 70px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-left: 0;
-  padding: 0 15%;
+  padding: 0 13%;
 }
 
 #hero h1 {
