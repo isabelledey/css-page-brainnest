@@ -37,9 +37,10 @@ nav ul li a:hover {
   margin-left: 20px;
 }
 
-nav h2 {
+nav h2 a {
   font-size: 24px;
   color: #f9faf8;
+  text-decoration: none;
 }
 
 nav .active {
