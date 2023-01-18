@@ -37,6 +37,11 @@ nav h2 {
   color: #f9faf8;
 }
 
+nav .active {
+  background-color: #ccc;
+  color: #000;
+}
+
 #hero {
   background-color: #1f2937;
   margin-top: 70px;
@@ -62,7 +67,7 @@ nav h2 {
   padding: 50px;
 }
 
-.left-container button {
+button {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.2s;
@@ -184,4 +189,81 @@ footer {
   background-color: #1f2937;
   text-align: center;
   padding: 30px;
+}
+
+.odd {
+  background-color: #e5e7eb;
+}
+.first {
+  margin-top: 70px;
+}
+.odd,
+.even {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  margin-top: 70px;
+  width: 400px;
+}
+
+.even {
+  flex-direction: row-reverse;
+  background-color: #fff;
+}
+
+#products img {
+  text-align: center;
+  border-radius: 15px;
+  margin: 70px 0;
+}
+
+.container button:hover,
+form button:hover {
+  color: #3882f6;
+  background: #f9faf8;
+  border: 1px solid #3882f6;
+  transform: translateY(-2px);
+}
+
+form {
+  width: 25%;
+  margin: 140px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  background-color: #e5e7eb;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* input[type="submit"] {
+  background-color: #3882f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+form:hover {
+  box-shadow: 4px 4px 10px #ccc;
 }
