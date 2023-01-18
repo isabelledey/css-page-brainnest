@@ -177,6 +177,7 @@ button {
   background-color: #3882f6;
   border: 1px solid #f9faf8;
   color: #f9faf8;
+  line-height: 0px;
 }
 
 #sign-up button:hover {
