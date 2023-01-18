@@ -17,12 +17,13 @@ nav ul {
   display: flex;
   flex-direction: row;
 }
+
 nav ul li a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
   font-size: 1.2em;
-
+  border-radius: 10px;
   padding: 10px;
   display: flex;
 }
@@ -228,9 +229,10 @@ form button:hover {
 }
 
 form {
-  width: 25%;
-  margin: 140px auto;
+  width: 20%;
+  margin: 140px 0 70px 130px;
   text-align: center;
+  text-align: left;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -266,4 +268,21 @@ textarea {
 
 form:hover {
   box-shadow: 4px 4px 10px #ccc;
+}
+
+.contact {
+  display: flex;
+  background-image: url("https://media.istockphoto.com/id/1278858684/photo/call-center-worker-accompanied-by-her-team.jpg?s=612x612&w=0&k=20&c=JDDjoWax0PvvEjk2jgp3fpGLy6-KZNKGMOV6j1OTUcU=");
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-text {
+  margin: 140px 10px 0 220px;
+  width: 25%;
+  background-color: #e5e7ebb2;
+  height: 25%;
+  padding: 10px 40px;
 }
