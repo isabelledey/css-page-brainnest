@@ -293,3 +293,128 @@ form:hover {
   height: 25%;
   padding: 10px 40px;
 }
+
+@media (max-width: 1040px) {
+  #hero,
+  #random-info,
+  #testimonial,
+  #sign-up,
+  footer {
+    width: 80%;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+  #hero p {
+    font-size: 16px;
+  }
+  .left-container {
+    padding: 15px;
+    padding-top: 30px;
+  }
+  #sign-up {
+    margin: 50px 90px;
+  }
+  .sign-text {
+    margin-left: 30px;
+    width: 90%;
+  }
+
+  #sign-up button {
+    margin-right: 30px;
+  }
+  footer {
+    width: 95%;
+  }
+  #testimonial .testimonial {
+    font-size: 32px;
+  }
+  #hero img {
+    width: 300px;
+  }
+  .contact-text {
+    margin-left: 10%;
+    margin-right: 0;
+  }
+  .contact form {
+    width: 30%;
+  }
+}
+
+@media (max-width: 750px) {
+  #hero {
+    width: 85%;
+    flex-direction: column;
+    text-align: center;
+  }
+  #hero img {
+    width: 85%;
+  }
+  #random-info,
+  #testimonial,
+  #sign-up,
+  footer {
+    width: 85%;
+  }
+  #sign-up {
+    margin: 50px 50px;
+  }
+  #testimonial .testimonial {
+    font-size: 20px;
+  }
+  #hero,
+  #random-info,
+  #testimonial,
+  #sign-up {
+    width: 80%;
+  }
+
+  .sign-text {
+    width: 50%;
+  }
+  .sign-text h3 {
+    font-size: 18px;
+  }
+  .sign-text p {
+    font-size: 13px;
+  }
+  footer {
+    width: 98%;
+  }
+  #products img {
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    margin: 70px 0;
+  }
+  #products h2 {
+    font-size: 20px;
+  }
+  #products p {
+    font-size: 12px;
+  }
+  #products button {
+    padding: 8px;
+  }
+
+  .container {
+    width: 50%;
+  }
+  .even .container {
+    margin-top: 30px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-text {
+    margin: 110px auto 10px;
+    width: 300px;
+  }
+  .contact form {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
